@@ -1,3 +1,7 @@
+body {
+  height: 1000px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #000000;
@@ -17,7 +21,7 @@
 }
 
 .topnav a:hover {
-  color: black;
+  color: blue;
 }
 
 .topnav .icon {
@@ -44,4 +48,66 @@
     display: block;
     text-align: left;
   }
+}
+
+.col-sm-12 {
+  margin-top: 50px;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Lato, serif;
+  letter-spacing: 2px;
+  font-weight: 600 !important;
+  font-size: 20px;
+}
+
+.col-sm-12 p {
+  text-transform: uppercase;
+  text-align: justify;
+  font-family: Lato, serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 20px;
+}
+
+.col-sm-6 p {
+  text-align: justify;
+  font-family: Lato, serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.w3-content {
+  position: relative;
+  left: 175px;
+}
+
+.mySlides {
+  height: 400px;
+  width: 750px;
+}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 375px;
+    transform: translate(0%,-50%);
 }
