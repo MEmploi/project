@@ -6,56 +6,215 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projet Web Maison de l'Emploi</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
   <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
-  <link rel="stylesheet" href="/css/contact.css">
+  <link rel="stylesheet" href="css/contact.css">
 
 </head>
 
 <body>
 
-  <div class="topnav" id="myTopnav">
-    <a href="index.html">Accueil</a>
-    <a href="#application">Application</a>
-    <a href="#mobilite">Mobilité</a>
-    <a href="entreprise.html">Entreprises</a>
-    <a href="#formations">Formations</a>
-    <a href="contact.html">Contact</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-  </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <h6>Si vous avez une question, n'hésitez surtout pas.</h6>
-      <div class="col-sm-6">
-        <img class="logoMa" src="img/logo_mde_Llhc.JPG" alt="">
-        <p>91Ter Avenue Jean Jaurès<br>
-          62800 Liévin</p>
-          <p>03 21 13 10 15</p>
-          <p>Directeur Adjoint :<br> Monsieur Sylvain Bernard</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <legend>Si vous avez une question, n'hésitez surtout pas.</legend>
       </div>
-      <div class="col-sm-3">
-        <img class="logoM" src="img/missionlocale.jpg" alt="">
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="card hovercard">
+          <div class="card-background">
+            <img class="card-bkimg" alt="logo maison de l'emploi" src="img/logo_mde_Llhc.jpg">
+
+          </div>
+          <div class="useravatar">
+            <img alt="" src="img/logo_mde_Llhc.jpg">
+          </div>
+          <div class="card-info"><span class="card-title">Maison de l'emploi</span>
+
+          </div>
+        </div>
+        <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+          <div class="btn-group" role="group">
+            <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              <div class="hidden-xs">Adresse</div>
+            </button>
+          </div>
+          <div class="btn-group" role="group">
+            <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              <div class="hidden-xs">Télephone</div>
+            </button>
+          </div>
+          <div class="btn-group" role="group">
+            <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+              <div class="hidden-xs">Contact</div>
+            </button>
+          </div>
+        </div>
+
+        <div class="well">
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="tab1">
+              <h3>91Ter Avenue Jean Jaurès</h3>
+              <h3>62800 Lièvin</h3>
+            </div>
+            <div class="tab-pane fade in" id="tab2">
+              <h3>03 21 13 10 15</h3>
+            </div>
+            <div class="tab-pane fade in" id="tab3">
+              <h3>Monsieur Sylvain Bernard</h3>
+              <h3>      <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact" data-original-title>
+                Mail
+              </a>
+              <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                      <h4 class="panel-title" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span> Une question? Contactez nous.</h4>
+                    </div>
+                    <form action="#" method="post" accept-charset="utf-8">
+                      <div class="modal-body" style="padding: 5px;">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                            <input class="form-control" name="firstname" placeholder="Prénom" type="text" required autofocus />
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                            <input class="form-control" name="lastname" placeholder="Nom" type="text" required />
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                            <input class="form-control" name="email" placeholder="E-mail" type="text" required />
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                            <input class="form-control" name="subject" placeholder="Titre" type="text" required />
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12">
+                            <textarea style="resize:vertical;" class="form-control" placeholder="Votre message" rows="6" name="comment" required></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel-footer" style="margin-bottom:-14px;">
+                        <input type="submit" class="btn btn-success" value="Envoyer"/>
+                        <!--<span class="glyphicon glyphicon-ok"></span>-->
+                        <input type="reset" class="btn btn-danger" value="Effacer" />
+                        <!--<span class="glyphicon glyphicon-remove"></span>-->
+                        <button style="float: right;" type="button" class="btn btn-default btn-close" data-dismiss="modal">Fermer</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </h3>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-3">
-        <p>91 Avenue Jean Jaurès<br>
-        62800 Liévin<br><br>
-        03 21 74 80 40</p>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="card hovercard">
+          <div class="card-background">
+            <img class="card-bkimg" alt="logo maison de l'emploi" src="img/missionlocale.jpg">
+
+          </div>
+          <div class="useravatar">
+            <img alt="" src="img/missionlocale.jpg">
+          </div>
+          <div class="card-info"><span class="card-title">Mission locale Lens-Liévin</span>
+
+          </div>
+        </div>
+        <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+          <div class="btn-group" role="group">
+            <button type="button" id="stars" class="btn btn-primary" href="#tab4" data-toggle="tab"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              <div class="hidden-xs">Adresse</div>
+            </button>
+          </div>
+          <div class="btn-group" role="group">
+            <button type="button" id="favorites" class="btn btn-default" href="#tab5" data-toggle="tab"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              <div class="hidden-xs">Télephone</div>
+            </button>
+          </div>
+          <div class="btn-group" role="group">
+            <button type="button" id="following" class="btn btn-default" href="#tab6" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+              <div class="hidden-xs">Contact</div>
+            </button>
+          </div>
+        </div>
+
+        <div class="well">
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="tab4">
+              <h3>91 Avenue Jean Jaurès</h3>
+              <h3>62800 Lièvin</h3>
+            </div>
+            <div class="tab-pane fade in" id="tab5">
+              <h3>03 21 74 80 40</h3>
+            </div>
+            <div class="tab-pane fade in" id="tab6">
+              <h3>      <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact" data-original-title>
+                Mail
+              </a>
+              <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                      <h4 class="panel-title" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span> Une question? Contactez nous.</h4>
+                    </div>
+                    <form action="#" method="post" accept-charset="utf-8">
+                      <div class="modal-body" style="padding: 5px;">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                            <input class="form-control" name="firstname" placeholder="Prénom" type="text" required autofocus />
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                            <input class="form-control" name="lastname" placeholder="Nom" type="text" required />
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                            <input class="form-control" name="email" placeholder="E-mail" type="text" required />
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                            <input class="form-control" name="subject" placeholder="Titre" type="text" required />
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12">
+                            <textarea style="resize:vertical;" class="form-control" placeholder="Votre message" rows="6" name="comment" required></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel-footer" style="margin-bottom:-14px;">
+                        <input type="submit" class="btn btn-success" value="Envoyer"/>
+                        <!--<span class="glyphicon glyphicon-ok"></span>-->
+                        <input type="reset" class="btn btn-danger" value="Effacer" />
+                        <!--<span class="glyphicon glyphicon-remove"></span>-->
+                        <button style="float: right;" type="button" class="btn btn-default btn-close" data-dismiss="modal">Fermer</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </h3>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
-
   </div>
 
-</div>
-
-  <script type="text/javascript" src="js/script.js"></script>
   <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
