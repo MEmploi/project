@@ -1,4 +1,2 @@
 *.lock
-assets
 node_modules
-config/db.php
