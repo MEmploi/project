@@ -1,82 +1,51 @@
-.topnav {
-  overflow: hidden;
+body {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.title h2 {
+  font-family: Lato, serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+hr {
+  width: 100px;
+  margin: 20px auto;
+  height: 2px !important;
   background-color: #000000;
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  text-transform: uppercase;
-  font-family: Lato, serif;
-  letter-spacing: 2px;
+.nav {
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+}
+.nav li {
+padding-top: 10px;
+text-transform: uppercase;
+font-family: Lato,serif;
+letter-spacing: 1px;
+font-size: 17px;
+line-height: 50px;
+position: relative;
+top: 40px;
 }
 
-.topnav a:hover {
-  color: blue;
+.one {
+  width: 10%;
 }
-
-.topnav .icon {
-  display: none;
+.two {
+  width: 40%;
 }
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-h1 {
-  text-transform: uppercase;
-  font-size: 20px;
-  font-family: Lato, serif;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
-}
-
-.col-sm-3 img {
-  width: 275px;
-  height: 200px;
-}
-
-.col-sm-3 p {
-  text-transform: uppercase;
-  font-size: 13px;
-  font-family: Lato, serif;
-  margin-top: 25px;
-  letter-spacing: 1px;
-}
-
-span {
-  font-weight: bold;
-}
-
-.col-sm-3 .img_2 {
-  width: 275px;
-  height: 50px;
-}
-
-.col-sm-3 {
-  margin-top: 50px;
+.three {
+  width: 50%;
 }

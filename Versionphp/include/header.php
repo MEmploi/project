@@ -14,7 +14,7 @@
 
 <body>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      	  <div class="container">
+      	  <div class="container-fluid">
   		    <!-- Brand and toggle get grouped for better mobile display -->
   		    <div class="navbar-header">
   		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
@@ -23,7 +23,7 @@
   		        <span class="icon-bar"></span>
   		        <span class="icon-bar"></span>
   		      </button>
-  		      <a href="index.php" class="navbar-brand navbar-brand-centered">Rally de l'emploi</a>
+  		      <a href="index.php" class="navbar-brand navbar-brand-centered">Rallye de l'emploi</a>
   		    </div>
 
   		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,14 +33,14 @@
   		        <li class="dropdown">
                     <a href="entreprises.php" class="dropdown-toggle" data-toggle="dropdown">Entreprises<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="#">Batîment</a></li>
-                      <li><a href="entreprises.php#commerce">Commerce</a></li>
+                      <li><a href="entreprises.php#batiments">Batîment</a></li>
+                      <li><a href="entreprises.php#commerces">Commerce</a></li>
                       <li class="divider"></li>
-                      <li><a href="#">Industrie</a></li>
-                      <li><a href="#">Logistique</a></li>
+                      <li><a href="entreprises.php#industries">Industrie</a></li>
+                      <li><a href="entreprises.php#logistiques">Logistique</a></li>
                       <li class="divider"></li>
-                      <li><a href="#">Restauration</a></li>
-                      <li><a href="#">Travaux publics</a></li>
+                      <li><a href="entreprises.php#restaurations">Restauration</a></li>
+                      <li><a href="entreprises.php#travaux_publics">Travaux publics</a></li>
                     </ul>
                   </li>
   		        <li class="dropdown">

@@ -5,10 +5,10 @@ include('include/footer.php');
 
 ?>
 
-<h1 class="center">Le site web et l'application rallye emploi</h1>
 
 <div class="container">
-  <div class="col-sm-12 caroussel">
+  <div class="row">
+    <div class="col-sm-12 caroussel">
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -56,30 +56,32 @@ include('include/footer.php');
   </div>
 </div>
 
-<div class="separate"></div>
 
-<div class="container">
-  <div class="row">
-
-    <div class="col-sm-12">
-      <p>Vous souhaitez découvrir des entreprises du territoire – Vos conseillers vont vous y aider. Préparez-vous à jouer et à découvrir des métiers</p>
-      <p>Cette application a été imaginée par la Mission Locale de l’Agglomération de Lens-Liévin et la Maison de l’Emploi de Lens-Liévin-Hénin-Carvin. Il a été conçue et réalisée avec l’appui technique des  étudiants Rudy Malcherczyk, Karine Molinaro et Sébastien Sailly de Pop School Lens</p>
-    </div>
+  <section>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+    <h3>Mobilité</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
+
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <h3>Entreprises</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <h3>Formations</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <h3>Application</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  </section>
+
 </div>
-
-<div class="container">
-  <div class="row">
-
-    <div class="col-sm-6">
-      <p>Vous y trouverez une liste d'entreprises et de formation qui vous aidera dans votre parcours professionnel et une page mobilité qui vous aidera à trouver un transport en commun assez facilement.</p>
-    </div>
-
-    <div class="col-sm-6">
-      <p>L'application vous aidera aussi dans votre parcours professionnelle, en visitant des entreprises dans l'amusement et la découverte.<br>
-        Soyez prêt à jouer !</p>
-      </div>
-    </div>
-  </div>
 
   <div class="separate"></div>

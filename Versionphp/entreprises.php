@@ -4,33 +4,846 @@ include('include/header.php');
 include('include/footer.php');
 
 ?>
-
-
-<div class="container">
-<div class="row">
-  <div class="col-sm-12">
-    <h1>Voici une liste d'entreprises qui vous aidera à connaître les différents métiers et peut-être même trouver de l'emploi.</h1>
-  </div>
+<div class="center">
+  <h1>Listes des entreprises par secteur d'activité</h1>  
 </div>
+<div class="container">
+  <div class="row entreprises" id="batiments">
+    <div class="title">
+      <h2>Bâtiment</h2>
+      <hr>
+    </div>
 
-<div class="row">
-  <div class="col-sm-3" id="commerce">
-    <img src="img/auchan-noyelles.jpg" alt="">
-    <img class="img_2" src="img/1280px-Logo_Auchan.svg.png" alt="">
-  </div>
-  <div class="col-sm-3">
-    <p><span>adresse :</span> 43 Route nationale, 62950 Noyelles-Godault</p>
-    <p><span>secteur d'activité :</span> grande distribution, secteur bancaire, secteur immobilier, commerce.</p>
-    <a target="_blank" href="https://www.auchan.fr/">Site Web</a>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Bâtiments</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Bâtiments</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Bâtiments</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="col-sm-3">
-    <img src="img/Benne_aluminium_usine.jpg" alt="">
-    <img class="img_2" src="img/Logo_Benalu.png" alt="">
+  <div class="row" id="commerces">
+    <div class="title">
+      <h2>Commerce</h2>
+      <hr>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Commerces</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Commerces</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Commerces</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-3">
-    <p><span>adresse :</span> rue Fresnel, 62800 LIÉVIN</p>
-    <p><span>secteur d'activité :</span>Centre d'appel.</p>
-    <a target="_blank" href="http://www.benalu.com/">Site Web</a>
+
+  <div class="row" id="industries">
+    <div class="title" >
+      <h2>Industrie</h2>
+      <hr>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Industries</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Industries</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Industries</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id="logistiques">
+    <div class="title">
+      <h2>Logistique</h2>
+      <hr>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Logistiques</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Logistiques</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Logistiques</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id="restaurations">
+    <div class="title">
+      <h2>Restauration</h2>
+      <hr>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Restaurations</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Restaurations</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Restaurations</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id="travaux_publics">
+    <div class="title">
+      <h2>Travaux Publics</h2>
+      <hr>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Travaux Publics</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Travaux Publics</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <img src="assets/img/dark-logo-for-site.png" alt="">
+        </div>
+        <div class="panel-body">
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bggreen2"></span></td>
+              <td class="two"><b>Adresse :</b></td>
+              <td class="three">45 avenue Voltaire, 62300 Lens</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgyellow2"></span></td>
+              <td class="two"><b>Secteur d'activité :</b></td>
+              <td class="three">Travaux Publics</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Contact :</b></td>
+              <td class="three">M. Simpson</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Téléphone :</b></td>
+              <td class="three">00 00 00 00 00</td>
+            </tr>
+          </table>
+          <table class="table condensed">
+            <tr>
+              <td class="one"><span class="sm-box bgred2"></span></td>
+              <td class="two"><b>Mail :</b></td>
+              <td class="three">rototo@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
