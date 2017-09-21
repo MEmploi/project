@@ -46,16 +46,16 @@
   		        <li class="dropdown">
                     <a href="formations.php" class="dropdown-toggle" data-toggle="dropdown">Formations<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="#">Batîment</a></li>
-                      <li><a href="#">Commerce</a></li>
+                      <li><a href="formations.php#batiments">Batîment</a></li>
+                      <li><a href="formations.php#commerces">Commerce</a></li>
                       <li class="divider"></li>
-                      <li><a href="#">Industrie</a></li>
-                      <li><a href="#">Logistique</a></li>
+                      <li><a href="formations.php#industries">Industrie</a></li>
+                      <li><a href="formations.php#logistiques">Logistique</a></li>
                       <li class="divider"></li>
-                      <li><a href="#">Numérique</a></li>
-                      <li><a href="#">Restauration</a></li>
+                      <li><a href="formations.php#numeriques">Numérique</a></li>
+                      <li><a href="formations.php#restauration">Restauration</a></li>
                       <li class="divider"></li>
-                      <li><a href="#">Travaux publics</a></li>
+                      <li><a href="formations.php#travaus_publics">Travaux publics</a></li>
                     </ul>
                   </li>
   		      </ul>
