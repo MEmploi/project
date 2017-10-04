@@ -219,15 +219,11 @@ img {
 }
 
 /*mobilite*/
-.section{
+.section {
   width:100%;
 	height:200px;
 	background-color:rgb(194, 196, 187);
   border-bottom: solid 5px #333;
-}
-
-p{
-  /*margin-bottom: 50px;*/
 }
 
 .image {

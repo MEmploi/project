@@ -4,7 +4,7 @@ include('include/header.php');
 include('include/footer.php');
 
 ?>
-<div class="container">
+<div class="container-fluid">
 
 <a href="https://www.voyages-sncf.com/" target="_blank">
 <div class="section image opacity">

@@ -13,7 +13,7 @@ include('include/footer.php');
 
     <div class="col-lg-6 col-md-6 col-sm-12">
       <div class="card hovercard">
-        <div class="card-background">
+        <div class="card-background llhc">
           <img class="card-bkimg" alt="logo maison de l'emploi" src="assets/img/logo_mde_Llhc.jpg">
 
         </div>
